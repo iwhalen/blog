@@ -6,4 +6,10 @@ You probably want to be [here](https://iwhalen.com/) instead.
 
 ## Development
 
-<!-- TODO -->
+To build, run:
+
+```bash
+uv run mkdocs build
+```
+
+For more on `uv` see [here](https://docs.astral.sh/uv/).

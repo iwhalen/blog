@@ -1,1 +1,60 @@
-site_name: My Docs
+site_name: iwhalen.com
+site_description: A simple blog for a simple man.
+site_url: https://iwhalen.org/
+use_directory_urls: true
+
+plugins:
+  - blog:
+      blog_dir: .
+      authors: true
+      post_url_format: "{slug}"
+      post_excerpt_separator: <!-- more -->
+      post_excerpt: required
+  - tags
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Source Serif 4
+    code: Fira Code
+  palette:
+    scheme: slate
+    primary: deep orange
+    accent: blue
+  features:
+    - content.code.copy
+    - navigation.sections
+  custom_dir: overrides
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+      pygments_style: monokai
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.caret
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
