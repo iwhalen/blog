@@ -6,8 +6,6 @@ categories:
 authors:
   - ianwhalen
 slug: hello-world
-description: >
-  Hello world blog post.
 ---
 
 # Baby's first blog post
