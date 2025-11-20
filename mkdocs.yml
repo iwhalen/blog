@@ -26,6 +26,7 @@ theme:
     - content.code.copy
     - navigation.sections
   custom_dir: overrides
+  favicon: assets/run.svg
 
 markdown_extensions:
   - admonition
