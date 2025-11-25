@@ -102,6 +102,83 @@ This isn't perfect as it relies on the docs having the same format in perpetuity
 Most importantly, we rely on the Ibis team to maintain their developer environment and build the docs for us. Which minimizes our dependencies.
 
 
+## Examples
+
+Finally, we can see some examples of backend checks on simple tests. This happen to also be unit tests in the package code.
+
+For more on installation, see the [repository](https://github.com/iwhalen/ibis-compatibility).
+
+``` python
+import ibis
+from ibis import _
+from ibis_compatibility import Checker
+
+checker = Checker()
+expr = ibis.literal(1) + 2
+
+print(checker.compatible_backends(expr).backends)
+```
+
+This code will output all backends since all backends support literals.
+
+A more interesting example is:
+
+``` python
+t = ibis.examples.penguins.fetch()
+
+expr = t.bill_length_mm.argmin(t.species)
+
+result = checker.compatible_backends(expr)
+
+print(result.backends)
+```
+
+This will output (formatted for clarity):
+
+``` python
+[
+    "athena",
+    "bigquery",
+    "clickhouse",
+    "databricks",
+    "datafusion",
+    "duckdb",
+    "postgres",
+    "pyspark",
+    "risingwave",
+    "snowflake",
+    "sqlite",
+    "trino",
+]
+```
+
+Which is helpful. But, for mere mortals that don't have all the backends memorized, we might also want to know which backends have been exclude.
+
+We can see this and which operations kicked the backends out with:
+
+``` python
+print(result.restricted_operations)
+```
+
+which will output (again formatted):
+
+``` python
+{
+    "ArgMin": [
+        "druid",
+        "exasol",
+        "flink",
+        "impala",
+        "mssql",
+        "mysql",
+        "oracle",
+    ],
+    "DatabaseTable": ["polars"],
+}
+```
+
+Now we know, if we want to continue to use `mysql`, we should rethink our use of `ArgMin`.
+
 [^realistic-dataset]: For more on what a realistic dataset size is for enterprise use cases, see [here](https://motherduck.com/blog/big-data-is-dead/).
 
 [^raw-to-model-note]: Certainly this is easier said than done.
