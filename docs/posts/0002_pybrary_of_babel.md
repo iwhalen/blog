@@ -15,6 +15,8 @@ This post is an exploration into the [Library of Babel](https://en.wikipedia.org
 
 In this post, there are _slight_ spoilers for the novella [_A Short Stay in Hell_](https://en.wikipedia.org/wiki/A_Short_Stay_in_Hell) by Steven L. Peck. So, buyer beware. 
 
+Code for this post can be found [here](https://github.com/ianwhale/pybrary-of-babel).
+
 <!-- more -->
 
 ## Motivation
