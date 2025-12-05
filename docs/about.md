@@ -6,7 +6,7 @@ hide:
 
 # About
 
-Welcome to my blog! I am mostly interested in technology, math, gaming, shows, movies, and books. If you are too, you're in the right place.
+Welcome to my blog! I am mostly interested in technology, math, food, gaming, shows, movies, and books. If you are too, you're in the right place.
 
 I originally started this blog to make the world a little more human. I grew very tired of seeing so much AI-generated content. Here is my promise:
 

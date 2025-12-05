@@ -1,8 +1,6 @@
 ---
 draft: false
 date: 2025-11-02
-categories:
-  - General
 authors:
   - ianwhalen
 slug: hello-world
