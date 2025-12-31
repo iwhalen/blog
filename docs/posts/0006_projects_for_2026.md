@@ -10,7 +10,7 @@ slug: projects-for-2026
 
 # Project ideas for 2026
 
-This is a collection of other people's good ideas for coding projects. 
+This is a collection of ideas for side projects.
 
 I'm trying to learn Zig. So, there will be some projects appropriate for that. 
 
@@ -28,7 +28,7 @@ I'm already working my way through the [Zig book](https://pedropark99.github.io/
 
 On top of this, I will also most likely do some of the [Ziglings](https://codeberg.org/ziglings/exercises/) exercises.
 
-If all of these don't satisfy my "starters" for Zig, I could also look at cloning a command line tool like `grep`.
+If all of these don't satisfy my "starters" for Zig, I could also look at cloning a command line tool like `grep` or dive into blog posts like [this one](https://austinhenley.com/blog/challengingalgorithms.html).
 
 ### Symbolic regression
 
@@ -46,9 +46,9 @@ The only reason to implement my own version would be if the library does not hav
 
 A (potentially) simple idea would be to implement a text-based version of something like a tower defense or base defender game.
 
-If this proves too difficult, I could just fall back on a text based adventure game.
+If this proves too difficult, I could just fall back on a text based adventure game or just do Conway's Game of Life.
 
-### A linear program solver
+### Linear program solver
 
 I am by no means an operations research PhD. Not even close. But, writing a small module for linear-only programs would be fun.
 
