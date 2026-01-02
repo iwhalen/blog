@@ -69,6 +69,10 @@ extra:
     - icon: material/github
       link: https://github.com/iwhalen
       name: Link to Github profile
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/iwhalen/
+      name: Link to Linkedin profile
+  
   generator: false
 
 extra_javascript:
