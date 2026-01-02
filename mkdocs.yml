@@ -1,6 +1,6 @@
 site_name: iwhalen.com
 site_description: A simple blog for a simple man.
-site_url: https://iwhalen.org/
+site_url: https://iwhalen.com/
 use_directory_urls: true
 
 plugins:
@@ -10,7 +10,15 @@ plugins:
       post_url_format: "{slug}"
       post_excerpt_separator: <!-- more -->
       post_excerpt: required
+      pagination_per_page: 5
   - tags
+  - rss:
+      use_git: false
+      date_from_meta:
+        as_creation: date
+      match_path: blog/posts/.*
+      categories:
+        - categories
 
 theme:
   name: material
@@ -52,6 +60,16 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: material/rss
+      link: /feed_rss_updated.xml
+      name: Subscribe to RSS feed
+    - icon: material/github
+      link: https://github.com/iwhalen
+      name: Link to Github profile
+  generator: false
 
 extra_javascript:
   - javascripts/mathjax.js
