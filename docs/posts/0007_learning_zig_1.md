@@ -9,7 +9,7 @@ authors:
 slug: learning-zig-1
 ---
 
-# Learning Zig Part 1
+# Learning Zig part 1
 
 As promised in my [project goals for 2026](./0006_projects_for_2026.md), I'm trying to learn Zig.
 
