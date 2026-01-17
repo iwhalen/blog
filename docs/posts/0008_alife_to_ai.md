@@ -118,7 +118,7 @@ This is all definitely a point for multidisciplinary research. Michigan State wa
 
 In the near future, I will finish my initial pass at learning Zig. As promised in my [learning blog](./0007_learning_zig_1.md) and [projects for 2026 blog](./0006_projects_for_2026.md), I'll be doing some side projects related to evolution.
 
-Reminiscing on Avida got me excited to recreated a special program called [Tierra](https://en.wikipedia.org/wiki/Tierra_(computer_simulation)) in Zig. More on that soon I hope.
+Reminiscing on Avida got me excited to recreate a special program called [Tierra](https://en.wikipedia.org/wiki/Tierra_(computer_simulation)) in Zig. More on that soon I hope.
 
 
 [^clarify-alife-branch]: See [here](https://en.wikipedia.org/wiki/Artificial_life). I'm specifically talking about the "soft" kind of alife that happens in software. Also referred to as _in silico_.
