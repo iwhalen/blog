@@ -149,6 +149,7 @@ The [repo](https://github.com/iwhalen/rogomatic-llm) has a gif of the first few 
 ![Gif of Rogue being played by an LLM](https://raw.githubusercontent.com/iwhalen/rogomatic-llm/main/static/demo.gif)
 
 Some general observations about Sonnet:
+
 - Generally it understands what happening and can move through spaces.
 - It can mix "move left" and "move all the way left until I hit something" commands intelligently.
 - I never saw it move down a floor. 
