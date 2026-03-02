@@ -198,7 +198,7 @@ The memory buffer of the last N frames will quickly lose information on a long r
 
 Thanks for reading. Bye bye!
 
-``` bash 
+``` 
 ╭───────────────────────────────────── Rogue ──────────────────────────────────────╮
 │                                                                                  │
 │                                                                                  │
