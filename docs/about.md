@@ -15,3 +15,7 @@ I originally started this blog to make the world a little more human. I grew ver
     The written words in this blog will _always_ be mine. 
     
 Spelling, grammar, and general coherence will hopefully also be included. AI-generation may help with coding, but I won't continue to contribute to slopification of the internet by using it for prose. If I break this promise, feel free to call me out. It at least will show me someone is reading.
+
+Of course, all the thoughts and opinions expressed here are entirely mine. They are not endorsed by my employer or any other organization I may be affiliated with. 
+
+![Small Web Seal](https://kagifeedback.org/assets/files/2025-11-27/1764250993-634450-88x31-2.png)
