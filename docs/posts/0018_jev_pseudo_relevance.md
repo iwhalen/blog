@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-10-5
+date: 2026-10-05
 categories:
   - Code
   - Python
