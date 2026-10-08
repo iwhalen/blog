@@ -6,7 +6,7 @@ categories:
   - Zig
 authors:
   - ianwhalen
-slug: zierra_1
+slug: zierra-1
 ---
 
 # Zierra part 1
